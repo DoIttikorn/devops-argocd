@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: pun-api
-        image: ghcr.io/doittikorn/gitops-argocd:1b719f744d2ca0ec3855f982d68ff59800aea844
+        image: ghcr.io/doittikorn/gitops-argocd:85ac1cc01109c605011e61675c7ce1410085e89b
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
